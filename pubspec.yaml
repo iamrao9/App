@@ -1,0 +1,32 @@
+name: maharaja_insurance_reminder
+description: Offline Insurance/Fitness/PUC expiry reminder app for Maharaja Solutions with calendar, local notifications, and Google Drive backup.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  intl: ^0.19.0
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  flutter_local_notifications: ^17.2.1+2
+  timezone: ^0.9.3
+  table_calendar: ^3.1.2
+  google_sign_in: ^6.2.1
+  googleapis: ^13.2.0
+  http: ^1.2.2
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ms_logo.jpg
